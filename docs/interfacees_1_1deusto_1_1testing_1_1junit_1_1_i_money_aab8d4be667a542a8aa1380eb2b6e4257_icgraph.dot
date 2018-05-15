@@ -1,0 +1,11 @@
+digraph "es.deusto.testing.junit.IMoney.addMoney"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3 [label="es.deusto.testing.junit.\lIMoney.addMoney",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="es.deusto.testing.junit.\lMoney.add",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classes_1_1deusto_1_1testing_1_1junit_1_1_money.html#a6a3d64861c49dee89ffd0ed0c576045d"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="es.deusto.testing.junit.\lMoney.subtract",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classes_1_1deusto_1_1testing_1_1junit_1_1_money.html#aada973cd1a31410ed2b7e5d2ae6bc2e9"];
+}
